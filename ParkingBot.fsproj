@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="ParkingSpot.fs" />
+        <Compile Include="Parking.fs" />
+        <Compile Include="Location.fs" />
+        <Compile Include="Matrix.fs" />
+        <Compile Include="Book.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="Logging\Logging.fsproj" />
+      <ProjectReference Include="Shade\Shade.fsproj" />
+    </ItemGroup>
+
+</Project>

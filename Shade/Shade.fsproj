@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Shade.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Selenium.WebDriver" Version="4.13.1" />
+      <PackageReference Include="WebDriverManager" Version="2.17.1" />
+    </ItemGroup>
+
+</Project>
